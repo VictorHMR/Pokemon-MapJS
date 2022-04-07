@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.2">
+    <title>Poketest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <a href="#">Home</a>
+            <a href="#" onclick="AbrirModal('Link1')">Link1</a>
+            <a href="#" onclick="AbrirModal('Link2')">Link2</a>
+            <a href="#" onclick="AbrirModal('Link3')">Link3</a>
+            <a href="#" onclick="AbrirModal('Link4')">Link4</a>
+            
+        </ul>
+        <a id="mute" class="bi-volume-up-fill" onclick="sound( music =1)" style="font-size: 2rem;padding-top: 0;"></a>
+        <a id="sound" class="bi-volume-mute-fill" onclick="sound(music =0)" style="font-size: 2rem;padding-top: 0;"></a>
+
+    </nav>
+
+ <canvas width="1000" height="600"></canvas> 
+ 
+ 
+<!-------------------------------------------Modal JS Link1------------------------------------------>
+ <div class="modal" id="Link1">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button onclick="FecharModal('Link1')">X</button>
+            <h2 style="margin: 10px 0 10px 0;">Um Titulo de Modal</h2>
+        </div>
+        <div class="modal-body">
+             <p>Um conteudo de Modal</p>
+        </div>
+        <div class="modal-footer">
+
+        </div>
+    </div>
+ </div>
+
+ <!-------------------------------------------Modal JS Link2------------------------------------------>
+ <div class="modal" id="Link2">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button onclick="FecharModal('Link2')">X</button>
+            <h2 style="margin: 10px 0 10px 0;">Um Titulo de Modal</h2>
+        </div>
+        <div class="modal-body" style="text-align: center;">
+            <p>Um conteudo de Modal</p>
+
+        </div>  
+        <div class="modal-footer">
+        </div>
+    </div>
+ </div>
+
+
+  <!-------------------------------------------Modal JS Link3------------------------------------------>
+  <div class="modal" id="Link3">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button onclick="FecharModal('Link3')">X</button>
+            <h2 style="margin: 10px 0 10px 0;">Um Titulo de Modal</h2>
+        </div>
+        <div class="modal-body" style="text-align: center;">
+            <p>Um conteudo de Modal</p> 
+        </div>  
+        <div class="modal-footer">
+        </div>
+    </div>
+ </div>
+
+
+   <!-------------------------------------------Modal JS Link4------------------------------------------>
+   <div class="modal" id="Link4">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button onclick="FecharModal('Link4')">X</button>
+            <h2 style="margin: 10px 0 10px 0;">Um Titulo de Modal</h2>
+        </div>
+        <div class="modal-body" style="text-align: left;">
+            <p>Um conteudo de Modal</p>
+            
+        </div>  
+        <div class="modal-footer">
+
+        </div>
+     </div>
+    </div>
+ 
+ <script src="script.js"></script>
+</body>
+</html>
