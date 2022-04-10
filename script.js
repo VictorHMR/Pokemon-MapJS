@@ -130,7 +130,7 @@ const Personagem = {
       Personagem.X <= Casas.CP.X + 80 + 25 &&
       Personagem.Y <= Casas.CP.Y + Casas.CP.AlturaC - Personagem.altura + 10
     ) {
-      AbrirModal("Link4");
+      AbrirModal("Link1");
     } else if (
     /*--------------Colisão com Porta PokeMart---------------*/
       Personagem.X >= Casas.PokeMart.X + 80 &&
